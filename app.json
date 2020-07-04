@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/main",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "小白购物",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#F5F5F5",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icons/shouye.png",
+        "selectedIconPath": "./icons/shouye-s.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "./icons/fenlei.png",
+        "selectedIconPath": "./icons/fenlei-s.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "./icons/gouwuche.png",
+        "selectedIconPath": "./icons/gouwuche-s.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "./icons/wode.png",
+        "selectedIconPath": "./icons/wode-s.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
